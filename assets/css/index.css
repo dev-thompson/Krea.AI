@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+}
+/* =============== global design section ======================== */
+:root {
+    --body :#ffffff;
+    --text :#555;
+    --light:#f5f2f2;
+    --light-text:#e6e6e6;
+    --btn-text:#000;
+}
+body {
+    background-color: var(--body);
+    color:var(--text);
+}
+.margin {
+    margin: 0 2%;
+}
+.margin-1 {
+    padding: 0 5%;
+}
+.hero-cta {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    background-color: var(--body);
+    color: var(--btn-text);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* =============== end of global design section ======================== */
+
+/* =============== navbar section ================= */
+.all-navbar {
+    padding: 5px 0;
+    margin-bottom: 70px;
+}
+.logos img{
+    width: 18px;
+}
+.logo-dark {
+    display: none;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.user-name img {
+    width: 28px;
+    border-radius: 50%;
+}
+.user-name i {
+    font-size:0.7rem ;
+}
+.user-name label {
+    font-size: 14px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.center-content {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.center-item {
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.center-item::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: -26px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f0f0f0;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 10px;
+  width: fit-content;
+  border-radius: 20px;
+  /* white-space: nowrap; */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+/* Show tooltip on hover */
+.center-item:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(5px);
+}
+.center-item i{
+    padding: 9px 15px;
+    border-radius: 13px;
+}
+.center-item i:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.center-item.active i{
+    background-color: var(--body);
+    padding: 12px 17px;
+}
+.nav-center {
+    background-color:var(--light) ;
+    padding: 5px;
+    border-radius:13px ;
+}
+.profile-navigate img {
+    width: 28px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.right-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 7px;
+    background-color: var(--light);
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.right-item label {
+    font-size: 12px;
+    font-weight: 500;
+}
+.right-content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+/* =============== end of navbar section ================= */
+
+/* ========================== hero section ================================== */
+.hero-item-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0,0,0,0.303)), url(../image/3.jpg) no-repeat center center/cover;
+    /* height: 30vh; */
+    padding: 30px;
+    border-radius:20px;
+    color: var(--light-text);
+    width: 100%;
+}
+.backgroundSwiper{
+    /* background-color: black; */
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+}
+.image-model h6 {
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+.image-brand h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+.description-left label {
+    font-size: 30px;
+    font-weight: bold;
+}
+.description-left span {
+    display: block;
+    font-size: 14px;
+}
+.image-description {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+.swiper {
+    margin: 0 2% !important;
+   height: none !important;
+   border-radius: 20px;
+
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #e2e2e2 !important;  
+  border-radius: 50%;
+  opacity: 1 !important;
+  transition: all 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+  width: 12px;
+  height: 12px;
+  background: rgb(0, 136, 255) !important;  
+  opacity: 1;
+}
+/* ========================== end of hero section ================================== */
