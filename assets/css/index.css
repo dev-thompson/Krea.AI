@@ -12,6 +12,7 @@
 body {
     background-color: var(--body);
     color:var(--text);
+    transition: 0.50s;
 }
 .margin {
     margin: 0 2%;
@@ -29,12 +30,22 @@ body {
     font-weight: 500;
     font-size: 15px;
 }
+a {
+    text-decoration: none;
+}
 /* =============== end of global design section ======================== */
 
 /* =============== navbar section ================= */
 .all-navbar {
     padding: 5px 0;
     margin-bottom: 70px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: var(--body);
+}
+#light-dark-navigator {
+    transform: scaleX(-1);
 }
 .logos img{
     width: 18px;
@@ -52,6 +63,7 @@ body {
     align-items: center;
     gap: 8px;
     cursor: pointer;
+    color: rgb(3, 3, 91);
 }
 .user-name img {
     width: 28px;
@@ -104,10 +116,12 @@ body {
 .center-item i{
     padding: 9px 15px;
     border-radius: 13px;
+    transition: 0.30s;
 }
 .center-item i:hover {
     background-color: #e0e0e0;
     cursor: pointer;
+    transform: translateY(-2px);
 }
 .center-item.active i{
     background-color: var(--body);
@@ -132,6 +146,10 @@ body {
     border-radius: 10px;
     width: fit-content;
     cursor: pointer;
+    transition: 0.20s;
+}
+.right-item:hover {
+    transform: translateY(-2px);
 }
 .right-item label {
     font-size: 12px;
@@ -167,8 +185,7 @@ body {
 }
 .image-brand h1{
     text-align: center;
-    font-weight: bold;
-    font-size: 100px;
+    font-size: 80px;
 }
 .description-left label {
     font-size: 30px;
@@ -203,4 +220,29 @@ body {
   background: rgb(0, 136, 255) !important;  
   opacity: 1;
 }
+.background-slide-navigator {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+}
+.background-slide-navigator i {
+    background-color: var(--light);
+    font-size: 0.7rem;
+    padding: 10px 10px 7px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.generate-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.generate-header a {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 13px;
+    gap: 2px;
+}
+
 /* ========================== end of hero section ================================== */

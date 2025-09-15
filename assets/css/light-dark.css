@@ -1,0 +1,32 @@
+body.dark-mode {
+    background-color: #1c2024;
+    color: #aab8c5;
+}
+body.dark-mode .all-navbar {
+    background-color: #1c2024;
+}
+body.dark-mode .nav-center{
+    background-color: #2d353c;
+}
+body.dark-mode .right-item{
+    background-color: #2d353c;
+}
+body.dark-mode .background-slide-navigator i{
+    background-color: #2d353c;
+}
+body.dark-mode .center-item i:hover{
+    background-color: #3f464d;
+}
+body.dark-mode .center-item.active i{
+    background-color: #454e56;
+}
+body.dark-mode .center-item::after{
+    background-color: #3f464d;
+    color: #aab8c5;
+}
+body.dark-mode .logo-light{
+    display: none;
+}
+body.dark-mode .logo-dark{
+    display: block;
+}

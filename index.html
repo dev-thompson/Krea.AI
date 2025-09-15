@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/icons/css/all.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/light-dark.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
@@ -70,7 +71,7 @@
                             <i class="fa fa-bell"></i>
                         </div>
                         <div class="right-item">
-                            <i class="fa fa-sun"></i>
+                            <i id="light-dark-navigator" class="fa fa-moon"></i>
                         </div>
                         <div class="profile-navigate">
                             <img src="./assets/image/download.svg" alt="">
@@ -105,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-item-background swiper-slide">
+                <!-- <div class="hero-item-background swiper-slide">
                     <div class="image-model">
                         <h6>NEW IMAGE MODEL</h6>
                     </div>
@@ -188,13 +189,47 @@
                             <button class="hero-cta">Try WAN 2.2</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="swiper-pagination"></div>
+            <div class="background-slide-navigator mt-1">
+                <i class="fa fa-chevron-left"></i>
+                <i class="fa fa-chevron-right"></i>
+            </div>
         </section>
      <!-- ===================== end of hero section ======================= -->
 
+
+     <!-- =============== generate section =========================== -->
+      <section class="all-generate margin mt-5">
+        <div class="generate-header">
+            <h5>Generate</h5>
+            <a href=""><i class="fa fa-chevron-down"></i> Show all</a>
+        </div>
+        <div class="generate-content">
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-image"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Image <span class="badge bg-primary">New</span></h6>
+                        <label>Generate Images with custom style in Flux and ideogram.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button>Open</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- =============== end of generate section =========================== -->
+
+
 <!-- ==================== script linking section ==========================-->
+ <script src="./assets/js/light-dark.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="./assets/js/index.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
