@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/icons/css/all.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/light-dark.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
@@ -19,7 +20,10 @@
 <body>
     <!-- =============== navbar section ========================= -->
         <nav class="all-navbar">
-            <div class="navbar-content margin">
+            <div class="navbar-content ">
+                <div id="bars">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
                 <div class="nav-left">
                     <div class="logos">
                         <img class="logo-light" src="./assets/image/logo-light.png" alt="">
@@ -59,15 +63,15 @@
                 </div>
                 <div class="nav-right">
                     <div class="right-content">
-                        <div class="right-item">
+                        <div class="right-item mobile-remove">
                             <i class="fa fa-images"></i>
                             <label>Gallery</label>
                         </div>
-                        <div class="right-item">
+                        <div class="right-item mobile-remove">
                             <i class="fa fa-headset"></i>
                             <label>Support</label>
                         </div>
-                        <div class="right-item">
+                        <div class="right-item ">
                             <i class="fa fa-bell"></i>
                         </div>
                         <div class="right-item">
@@ -78,6 +82,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </nav>
     <!-- =============== end of navbar section ========================= -->
@@ -89,7 +94,7 @@
                     <div class="image-model">
                         <h6>NEW IMAGE MODEL</h6>
                     </div>
-                    <div class="image-brand mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="image-brand" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <h1>WAN 2.2</h1>
                     </div>
                     <div class="image-description">
@@ -97,20 +102,21 @@
                             <label>WAN 2.2 Image generation</label>
                             <p>
                                 <span>Generate complex images with the brand new and powerful</span>
-                                <span>WAN 2.2 model. Exceptional prompt adherence and ultra-</span>
-                                <span>realistic textures.</span>
-                            </p>
+                                <span>WAN 2.2 model. <p class="remove">Exceptional prompt adherence and ultra-</p></span>
+                                <span><p class="remove">realistic textures.</p></span>
+                            </p> 
+                             
                         </div>
                         <div class="description-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <button class="hero-cta">Try WAN 2.2</button>
                         </div>
                     </div>
                 </div>
-                <div class="hero-item-background swiper-slide">
+                <div class="hero-item-background-1 swiper-slide">
                     <div class="image-model">
                         <h6>NEW IMAGE MODEL</h6>
                     </div>
-                    <div class="image-brand mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="image-brand " data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <h1>Open Source</h1>
                     </div>
                     <div class="image-description">
@@ -118,8 +124,8 @@
                             <label>FLUXE.1 Krea</label>
                             <p>
                                 <span>We're making the weights to our FLUX.1 Krea model open-source.</span>
-                                <span>Download and run our model weights, read the technicalreport, or</span>
-                                <span>generate with it in Krea Image.</span>
+                                <span><p class="remove">Download and run our model weights, read the technicalreport, or</p></span>
+                                <span><p class="remove">generate with it in Krea Image.</p></span>
                             </p>
                         </div>
                         <div class="description-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
@@ -127,11 +133,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-item-background swiper-slide">
+                <div class="hero-item-background-2 swiper-slide">
                     <div class="image-model">
                         <h6>NEW IMAGE MODEL</h6>
                     </div>
-                    <div class="image-brand mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="image-brand" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <h1>WAN 2.2</h1>
                     </div>
                     <div class="image-description">
@@ -139,20 +145,20 @@
                             <label>WAN 2.2 Image generation</label>
                             <p>
                                 <span>Generate complex images with the brand new and powerful</span>
-                                <span>WAN 2.2 model. Exceptional prompt adherence and ultra-</span>
-                                <span>realistic textures.</span>
-                            </p>
+                                <span>WAN 2.2 model. <p class="remove">Exceptional prompt adherence and ultra-</p></span>
+                                <span><p class="remove">realistic textures.</p></span>
+                            </p> 
                         </div>
                         <div class="description-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <button class="hero-cta">Try WAN 2.2</button>
                         </div>
                     </div>
                 </div>
-                <div class="hero-item-background swiper-slide">
+                <div class="hero-item-background-3 swiper-slide">
                     <div class="image-model">
                         <h6>NEW IMAGE MODEL</h6>
                     </div>
-                    <div class="image-brand mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="image-brand" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <h1>WAN 2.2</h1>
                     </div>
                     <div class="image-description">
@@ -160,30 +166,9 @@
                             <label>WAN 2.2 Image generation</label>
                             <p>
                                 <span>Generate complex images with the brand new and powerful</span>
-                                <span>WAN 2.2 model. Exceptional prompt adherence and ultra-</span>
-                                <span>realistic textures.</span>
-                            </p>
-                        </div>
-                        <div class="description-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                            <button class="hero-cta">Try WAN 2.2</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-item-background swiper-slide">
-                    <div class="image-model">
-                        <h6>NEW IMAGE MODEL</h6>
-                    </div>
-                    <div class="image-brand mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
-                        <h1>WAN 2.2</h1>
-                    </div>
-                    <div class="image-description">
-                        <div class="description-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                            <label>WAN 2.2 Image generation</label>
-                            <p>
-                                <span>Generate complex images with the brand new and powerful</span>
-                                <span>WAN 2.2 model. Exceptional prompt adherence and ultra-</span>
-                                <span>realistic textures.</span>
-                            </p>
+                                <span>WAN 2.2 model. <p class="remove">Exceptional prompt adherence and ultra-</p></span>
+                                <span><p class="remove">realistic textures.</p></span>
+                            </p> 
                         </div>
                         <div class="description-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <button class="hero-cta">Try WAN 2.2</button>
@@ -201,8 +186,8 @@
 
 
      <!-- =============== generate section =========================== -->
-      <section class="all-generate margin mt-5">
-        <div class="generate-header">
+      <section class="all-generate margin my-5">
+        <div class="generate-header mb-3">
             <h5>Generate</h5>
             <a href=""><i class="fa fa-chevron-down"></i> Show all</a>
         </div>
@@ -210,7 +195,7 @@
             <div class="generate-item">
                 <div class="generate-left">
                     <div class="generate-image">
-                        <i class="fa fa-image"></i>
+                        <i class="fa fa-image image-icon"></i>
                     </div>
                     <div class="generate-title">
                         <h6>Image <span class="badge bg-primary">New</span></h6>
@@ -219,7 +204,119 @@
                 </div>
                 <div class="generate-right">
                     <div class="generate-cta">
-                        <button>Open</button>
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-video video-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Video</h6>
+                        <label>Generate Videos with custom style in Flux and ideogram.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-bolt realtime-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Realtime</h6>
+                        <label>Realtime AI rendering on canvas. Instant feedback loops.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-wand-sparkles enhancer-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Enhancer <span class="badge bg-primary">New</span></h6>
+                        <label>Upgrade and enhance images and videos up to 22K.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-drafting-compass edit-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Edit <span class="badge bg-primary">New</span></h6>
+                        <label>Add Objects, change style, or expand photos and generations.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-microphone lipsync-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Video Lipsync <span class="badge bg-primary">New</span></h6>
+                        <label>Lip sync any video to any audio.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-street-view motion-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Motion Transfer <span class="badge bg-primary">New</span></h6>
+                        <label>Transfer motion to images and animate characters.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
+                    </div>
+                </div>
+            </div>
+            <div class="generate-item">
+                <div class="generate-left">
+                    <div class="generate-image">
+                        <i class="fa fa-chalkboard-teacher box-icon"></i>
+                    </div>
+                    <div class="generate-title">
+                        <h6>Train</h6>
+                        <label>Teach Krea to replicate your style, products, or characters.</label>
+                    </div>
+                </div>
+                <div class="generate-right">
+                    <div class="generate-cta">
+                        <button class="generate-btn">Open</button>
                     </div>
                 </div>
             </div>

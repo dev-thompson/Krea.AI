@@ -57,6 +57,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 2%;
+}
+#bars {
+    display:none;
 }
 .user-name {
     display: flex;
@@ -165,7 +169,27 @@ a {
 /* ========================== hero section ================================== */
 .hero-item-background {
     background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0,0,0,0.303)), url(../image/3.jpg) no-repeat center center/cover;
-    /* height: 30vh; */
+    padding: 30px;
+    border-radius:20px;
+    color: var(--light-text);
+    width: 100%;
+}
+.hero-item-background-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0,0,0,0.303)), url(../image/6.jpg) no-repeat center center/cover;
+    padding: 30px;
+    border-radius:20px;
+    color: var(--light-text);
+    width: 100%;
+}
+.hero-item-background-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0,0,0,0.303)), url(../image/4.jpg) no-repeat center center/cover;
+    padding: 30px;
+    border-radius:20px;
+    color: var(--light-text);
+    width: 100%;
+}
+.hero-item-background-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0,0,0,0.303)), url(../image/7.jpg) no-repeat center center/cover;
     padding: 30px;
     border-radius:20px;
     color: var(--light-text);
@@ -186,6 +210,7 @@ a {
 .image-brand h1{
     text-align: center;
     font-size: 80px;
+    margin-bottom: 30px;
 }
 .description-left label {
     font-size: 30px;
@@ -244,5 +269,94 @@ a {
     font-size: 13px;
     gap: 2px;
 }
-
+.generate-title h6 {
+    font-weight: 500;
+}
+.generate-btn {
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    background-color: var(--light);
+    color: var(--btn-text);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.generate-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.image-icon {
+  background: linear-gradient(135deg, #475392, #adbac5); 
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.video-icon {
+  background: linear-gradient(135deg, #F7971E, #FFD200);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.realtime-icon {
+  background: linear-gradient(135deg, #00C6FB, #005BEA);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.enhancer-icon {
+  background: linear-gradient(135deg, #232526, #6b6e71);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.edit-icon {
+  background: linear-gradient(135deg, #654EA3, #EA6060);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.lipsync-icon {
+  background: linear-gradient(135deg, #11998E, #38EF7D);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.motion-icon {
+  background: linear-gradient(135deg, #434343, #000000);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.box-icon {
+  background: linear-gradient(135deg, #393a3f, #76797e);
+  color: var(--body);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.generate-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.generate-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.generate-title label {
+    font-size: 14px;
+}
 /* ========================== end of hero section ================================== */

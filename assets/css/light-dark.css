@@ -11,6 +11,10 @@ body.dark-mode .nav-center{
 body.dark-mode .right-item{
     background-color: #2d353c;
 }
+body.dark-mode .generate-btn{
+    background-color: #2d353c;
+    color:#aab8c5 ;
+}
 body.dark-mode .background-slide-navigator i{
     background-color: #2d353c;
 }
@@ -23,6 +27,21 @@ body.dark-mode .center-item.active i{
 body.dark-mode .center-item::after{
     background-color: #3f464d;
     color: #aab8c5;
+}
+body.dark-mode label{
+    color: #aab8c5;
+}
+body.dark-mode .generate-image i {
+    color: #fff;
+}
+body.dark-mode a{
+    color: #aab8c5;
+}
+body.dark-mode i{
+    color: #aab8c5;
+}
+body.dark-mode .description-left label{
+    color: #e6e6e6;
 }
 body.dark-mode .logo-light{
     display: none;
